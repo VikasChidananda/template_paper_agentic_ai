@@ -6,6 +6,8 @@ The goal here is that you, the AI, write a manuscript that follows what I, the h
 
 The main task is to help going from bullet-point-like summary to proper text. Make sure that the bullet point materials are turned into consistent paragraphs, good quality text, that there are transitions between these, etc. Also double check that the content is correct and makes sense and come with comments and suggestions if relevant.
 
+If looking at a manuscript for which there are both bullet points in the .md file and some latex main.tex files, be aware that the user may have edited the latex file directly by hand. So, if you are asked to update the manuscript either following bullet point updates, or on-the-fly, make sure to preserve both the content of the bullet points and of the latex file and to respect and extend both. If you find some important point are present in the latex .tex file but not in the .md bullet points file, you can update the bullet points file as relevant. Generally, try to keep all .md files up to date when you perform changes.
+
 ## General organization of the repository
 
 - The manuscript comes in several consecutive main versions. Each of these is in an own folder with `v`, such as `v1`, `v2`, etc. For example `v2` starts with a copy of `v1`, with further changes gradually applied. Only start a new version if the user asks for it, otherwise edit the highest version. Each version is self contained - for example, copy all the figures (`figs` folder) and the `compile.sh` script.
