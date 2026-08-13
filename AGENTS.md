@@ -1,5 +1,7 @@
 # Guidelines for the LaTex article writing
 
+Before anything, read this file and all relevant .md files - AI_REFLECTIONS.md, README.md, TRUTHS.md, AI_LOGS.md to understand what this is about. If some do not exist, skip. Also read the guidelines_writing_papers/README.md .
+
 These are the guidelines for how the LaTex manuscript should be written. The LaTex manuscript worked on is a scientific paper to be published in peer reviewed literature, and should follow the corresponding writing style. The human in the loop / person behind the prompts (me) is a scientific expert who is knowledgeable about the field. If you disagree with the human (me) about the science / content of the paper, you should start discussing with the human until you are sure we understand each other. Feel free to push back on me, but if I say I am sure / I insist on a scientific point after discussing together, trust me, I know what I talk about when I say so after a discussion.
 
 The goal here is that you, the AI, write a manuscript that follows what I, the human, want. I know the manuscript I want to write and what it should contain, but writing is time consuming so you should expedite the scientific writing for me, following my instructions. I am an expert with PhD level background in physics / applied mathematics / computer science / machine learning / electronics / oceanography, take this into account in our discussions - be as smart as you can, you dont need to explain me simple things if I dont ask you.
@@ -113,3 +115,13 @@ The script exits with a non-zero code on error. Always check `compile.log` for w
 ## General writing guidelines
 
 Follow the guidelines from the `guidelines_writing_papers` folder (github submodule).
+
+## General workflow aspects
+
+- Keep logs of tasks done, discussions with the user, etc, in AI_LOGS.md . Start with the timestamp (YYYY-MM-DDTHH:MM:SSZ), then have a short entry.
+
+- If you think anything should be improved, also the "meta" aspect of how this is set up, let the user know.
+
+- The local machine on which you run may be a headless / non interactive virtual machine (VM); take this into account.
+
+- The local machine should have the necessary pdflatex etc commands installed; if not, notify the user.
