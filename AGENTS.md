@@ -114,7 +114,7 @@ The script exits with a non-zero code on error. Always check `compile.log` for w
 
 ## General writing guidelines
 
-Follow the guidelines from the `guidelines_writing_papers` folder (github submodule).
+Follow the guidelines from the `guidelines_writing_papers` folder (included as a git submodule; if it is not properly submodule-cloned yet, run the necessary git command to pull it fully locally).
 
 ## General workflow aspects
 
